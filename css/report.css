@@ -1,0 +1,355 @@
+h1{
+    font-weight: 400;
+}
+
+.report-hero{
+    display: flex;
+    padding: 20px;
+    background-color: #22a2ff;
+}
+
+.report-hero-div{
+    padding: 20px;
+}
+
+.report-hero-div div{
+    padding: 20px 0;
+}
+
+.report-hero-div div p{
+    font-size: 20px;
+}
+
+.report-hero-header, .report-hero-title, .report-hero-description{
+    color: white;
+}
+
+.report-hero-div div button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.report-hero-div img{
+    width: 50vw;
+}
+
+.vision-section{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vision-title{
+    padding:30px 0px;
+}
+
+.vision-description{
+    width: 50vw;
+}
+
+.vision-description p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.report-doc-section{
+    display: flex;
+    justify-content: center;
+}
+
+.report-download{
+    display: flex;
+    align-items: center;
+}
+
+.report-download-btn, .view-awards-btn button, .view-add-info-btn button{
+    border-color: #22a2ff;
+    background-color: white;
+    color: #22a2ff;
+    transition: .3s;
+}
+
+.values-section, .stats-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.report-download-btn:hover, .view-awards-btn button:hover, .view-add-info-btn button:hover{
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.values-title, .stats-title{
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.stats-title{
+    text-align: center;
+}
+
+.values-img{
+    margin: 40px 0;
+}
+.values-img div{
+    display: flex;
+}
+
+.values-img div img{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.stats-img div img{
+    width: 20vw;
+    margin: 0 20px;
+}
+
+.quote-hero {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-hero-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+}
+
+.quote-hero-quote{
+    font-size: 30px;
+    color: black;
+}
+
+.quote-hero-left-footer{
+    font-style: italic;
+}
+
+.people-section, .future-section, .awards-section, .explore-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.people-title h1, .future-title h1, .awards-title h1, .explore-title h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.people-subtitle p{
+    width: 50vw;
+    font-size: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.people-img{
+    margin: 40px 0;
+}
+
+.people-img img{
+    width: 70vw;
+}
+
+.future-title h1{
+    margin: 40px 0;
+}
+
+.future-accordion{
+    width: 60vw;
+}
+
+.card{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.card-header{
+    background-color: white;
+}
+
+.card-header h2 button{
+    color: #22a2ff;
+}
+
+.collapse div a{
+    margin-left: 20px;
+    color: #22a2ff;
+}
+
+.awards-div{
+    display: flex;
+    padding: 20px 0;
+}
+
+.awards-img{
+    width: 40vw;
+}
+
+.awards-img img{
+    width: 100%;
+}
+
+.awards-right-div{
+    width: 30vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-cards{
+	margin: 0px 150px;
+}
+
+
+.card{
+    margin: 20px 0;
+    border-radius: 0;
+    transition: 0.5s;
+    padding: 0;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 10px #888888;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+a:hover{
+    color: unset;
+}
+
+.card-block{
+    padding: 10px;
+}
+
+.view-add-info-btn button{
+    margin: 30px 0;
+}
+
+
+
+@media (max-width: 1000px) {
+    .report-hero{
+        flex-wrap: wrap;
+    }
+    .report-hero-div div{
+        width: unset;
+    }
+    .report-hero-div img{
+        width: 80vw;
+    }
+    .vision-description{
+        width: 80vw;
+    }
+
+    .report-doc-section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .report-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .report-download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .values-img div{
+        flex-wrap: wrap;
+    }
+    .values-img div img{
+        width: 100vw;
+    }
+    .stats-img div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .stats-img div img{
+        width: 40vw;
+    }
+
+    .quote-hero{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .quote-hero-div{
+        width: 80vw;
+    }
+    
+    .people-subtitle p{
+        width: 70vw;
+    }
+
+    .awards-div{
+        flex-direction: column;
+    }
+
+    .awards-img{
+        width: 60vw;
+    }
+
+    .awards-right-div{
+        width: 60vw;
+        padding: 20px;
+    }
+
+    .explore-cards{
+        margin: 30px 10px;
+    }
+    
+    
+}
+
+@media (max-width: 600px) {
+    
+    .report-img img{
+        width: 90vw;
+    }
+    .stats-img div img{
+        width: 60vw;
+    }
+    
+    .people-subtitle p{
+        width: 80vw;
+    }
+
+    .people-img img{
+        width: 80vw;
+    }
+
+    .future-accordion{
+        width: 80vw;
+    }
+
+    .awards-img{
+        width: 70vw;
+    }
+
+    .awards-right-div{
+        width: 70vw;
+        padding: 10px;
+    }
+
+}
